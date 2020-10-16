@@ -11,5 +11,5 @@ class SymbolTable:
     def get(self, value):
         return self.bst.search(value)
 
-    def __str__(self):
-        return str(self.bst)
+    def inorder(self):
+        self.bst.inorder()
