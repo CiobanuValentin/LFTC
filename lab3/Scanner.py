@@ -23,9 +23,20 @@ def isConstant(token):
     # return re.match('^(0|[\+\-]?[1-9][0-9]*)$|^\'.\'$|^\".*\"$', token) is not None
 
 
-def getTokens(line):
+def getTokensOld(line):
     return re.split("([ (){}\[\];,])", line)
-    # return re.split("( |\(|\)|\{|\}|\[|\]|\;|,)", line)
+
 def getTokensByOperators(line):
     return re.split("(<=|>=|\+\+|--|!=|==|\+|-|\*|/|%|<|>|&&|\|\||!|)", line)
+
+def getTokens(line):
+    x= re.split("([ (){}\[\];,])", line)
+    y=[]
+    for i in range(len(x)):
+        if x[i] not in separators+operators+reservedWords and not isIdentifier(x[i]) and not isConstant(x[i]):
+            y.extend(getTokensByOperators(x[i]))
+        else:
+            y.append(x[i])
+    y=list(filter(lambda a: a != '' and a!='\n', y))
+    return y
 

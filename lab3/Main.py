@@ -15,7 +15,26 @@ if __name__ == "__main__":
 
     symbolTable = SymbolTable()
     pif = ProgramInternalForm()
+    with open(fileName, 'r') as file:
+        lineNo = 0
+        for line in file:
+            lineNo += 1
+            line=line.replace('\n','')
+            for token in getTokens(line):
+                if token == '' or token == '\n':
+                    pass
+                elif token in separators + operators + reservedWords:
+                    pif.add(codification[token], -1)
+                elif isConstant(token):
+                    id = symbolTable.add(token)
+                    pif.add(codification['constant'], id)
+                elif isIdentifier(token):
+                    id = symbolTable.add(token)
+                    pif.add(codification['identifier'], id)
+                else:
+                    raise Exception('Unknown token $' + token + '$ at line ' + str(lineNo))
 
+    """""
     with open(fileName, 'r') as file:
         lineNo = 0
         for line in file:
@@ -49,6 +68,7 @@ if __name__ == "__main__":
                             raise Exception('Unknown token $' + token + '$ at line ' + str(lineNo))
                         #
                     #raise Exception('Unknown token $' + token + '$ at line ' + str(lineNo))
+    """""
     symbolTable.inorder()
     print(pif)
     for x,y in codification.items():

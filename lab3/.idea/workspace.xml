@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1966b229-5034-4e00-85bf-d421a864a3ac" name="Default Changelist" comment="lab3">
+    <list default="true" id="1966b229-5034-4e00-85bf-d421a864a3ac" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scanner.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scanner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../st/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../st/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../st/model/Bst.py" beforeDir="false" afterPath="$PROJECT_DIR$/../st/model/Bst.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,34 +84,50 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603395676423</updated>
-      <workItem from="1603395680944" duration="9425000" />
+      <workItem from="1603395680944" duration="11077000" />
     </task>
+    <task id="LOCAL-00001" summary="lab3 that works without spaces between operands and operators">
+      <created>1603441919447</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603441919447</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lab3 that works without spaces between operands and operators" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab3 that works without spaces between operands and operators" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1603434103631">
+    <state x="552" y="178" key="#SQL_Dialects" timestamp="1603444292251">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603434103631" />
-    <state width="1877" height="325" key="GridCell.Tab.0.bottom" timestamp="1603441780039">
+    <state x="552" y="178" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1603444292251" />
+    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1603441918733">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="325" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603441780039" />
-    <state width="1877" height="325" key="GridCell.Tab.0.center" timestamp="1603441780039">
+    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603441918733" />
+    <state width="1877" height="325" key="GridCell.Tab.0.bottom" timestamp="1603444362235">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="325" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603441780039" />
-    <state width="1877" height="325" key="GridCell.Tab.0.left" timestamp="1603441780039">
+    <state width="1877" height="325" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603444362235" />
+    <state width="1877" height="325" key="GridCell.Tab.0.center" timestamp="1603444362235">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="325" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603441780039" />
-    <state width="1877" height="325" key="GridCell.Tab.0.right" timestamp="1603441780039">
+    <state width="1877" height="325" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603444362235" />
+    <state width="1877" height="325" key="GridCell.Tab.0.left" timestamp="1603444362235">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="325" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603441780039" />
+    <state width="1877" height="325" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603444362235" />
+    <state width="1877" height="325" key="GridCell.Tab.0.right" timestamp="1603444362235">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="325" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603444362235" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1603436275890">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -140,18 +153,7 @@
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603435439234" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Main.py</url>
-          <line>22</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/lab3$Main.coverage" NAME="Main Coverage Results" MODIFIED="1603441780032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lab3$Main.coverage" NAME="Main Coverage Results" MODIFIED="1603444362229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
