@@ -13,8 +13,8 @@ class BST:
 
     def add(self, val):
         if self.__root is None:
-            self.__count = 1
             self.__root = Node(val, self.__count)
+            self.__count = 1
             return self.__count
         _, addedNode = self.__insert(self.__root, val)
         return addedNode.uniqueIdentifier
@@ -25,9 +25,9 @@ class BST:
             node = Node(val, self.__count - 1)
             return node, node
         else:
-            if root.val == val:
+            if str(root.val) == str(val):
                 return root, root
-            elif root.val < val:
+            elif str(root.val) < str(val):
                 node, addedNode = self.__insert(root.right, val)
                 root.right = node
                 return root, addedNode
@@ -54,5 +54,5 @@ class BST:
     def __inorder(self, root):
         if root:
             self.__inorder(root.left)
-            print(root.val)
+            print("value : "+str(root.val) + "   unique identifier:"+str(root.uniqueIdentifier))
             self.__inorder(root.right)
