@@ -1,0 +1,9 @@
+fct Main(){
+ number max,n,a100];
+ in>> n; in>> max;
+ for(number d = 2a; d <= n;d = d + 1){
+ in>> a[d];
+ if(a[d] > max) {max = a[d];}
+ }
+ out<< max;
+}
