@@ -12,4 +12,4 @@ class SymbolTable:
         return self.bst.search(value)
 
     def inorder(self):
-        self.bst.inorder()
+        return self.bst.inorder()

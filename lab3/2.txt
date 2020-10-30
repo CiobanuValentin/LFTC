@@ -2,7 +2,7 @@ fct Main(){
  number n;
  bula ok = true;
  in>> n;
- for(number d = 5-3; d <= n / 2 ; d++){
+ for(number d = 5-3; d <= n / -2 ; d++){
  if(n % d == 0){
  ok = false;
  break;

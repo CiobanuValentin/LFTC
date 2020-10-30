@@ -3,7 +3,7 @@ from model.Pif import ProgramInternalForm
 from Scanner import *
 
 if __name__ == "__main__":
-    fileName = "2.txt"
+    fileName = "err.txt"
 
     file = open(fileName, 'r')
     for line in file:
@@ -21,7 +21,7 @@ if __name__ == "__main__":
             lineNo += 1
             line=line.replace('\n','')
             for token in getTokens(line):
-                if token == '' or token == '\n':
+                if token == '' or token == '\n' or token == ' ':
                     pass
                 elif token in separators + operators + reservedWords:
                     pif.add(codification[token], -1)
@@ -69,7 +69,12 @@ if __name__ == "__main__":
                         #
                     #raise Exception('Unknown token $' + token + '$ at line ' + str(lineNo))
     """""
-    symbolTable.inorder()
-    print(pif)
+    outPif = open("pif.txt", "w")
+    outSt = open("St.txt", "w")
+    outCodification = open("codification.txt", "w")
+    outSt.write(str(symbolTable.inorder()))
+    outPif.write(str(pif))
+    s=""
     for x,y in codification.items():
-        print(x,y)
+        s+=(str(x)+" "+str(y)+'\n')
+    outCodification.write(s)

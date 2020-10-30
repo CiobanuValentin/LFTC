@@ -15,7 +15,7 @@ class BST:
         if self.__root is None:
             self.__root = Node(val, self.__count)
             self.__count = 1
-            return self.__count
+            return self.__count-1
         _, addedNode = self.__insert(self.__root, val)
         return addedNode.uniqueIdentifier
 
@@ -49,10 +49,14 @@ class BST:
         return self.__search(root.left, val)
 
     def inorder(self):
-        self.__inorder(self.__root)
+        return self.__inorder(self.__root)
+
 
     def __inorder(self, root):
+        x=[]
         if root:
-            self.__inorder(root.left)
-            print("value : "+str(root.val) + "   unique identifier:"+str(root.uniqueIdentifier))
-            self.__inorder(root.right)
+            x=self.__inorder(root.left)
+            #print("value : "+str(root.val) + "   unique identifier:"+str(root.uniqueIdentifier))
+            x.append((root.val,root.uniqueIdentifier))
+            x=x+self.__inorder(root.right)
+        return x

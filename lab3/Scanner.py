@@ -6,8 +6,9 @@ operators = ['+', '-', '*', '/', '%', '<', '<=', '=', '>=', '>',
 reservedWords = ['fct', 'in>>', 'out<<', 'if', 'else',
                  'for', 'break', 'while',
                  'number', 'char', 'bula', 'return', 'Main']
-
-everything = separators + operators + reservedWords
+temp = separators
+temp.remove(' ')
+everything = temp + operators + reservedWords
 
 codification = {'identifier': 0, 'constant': 1}
 for i in range(len(everything)):
@@ -26,17 +27,22 @@ def isConstant(token):
 def getTokensOld(line):
     return re.split("([ (){}\[\];,])", line)
 
+
 def getTokensByOperators(line):
     return re.split("(<=|>=|\+\+|--|!=|==|\+|-|\*|/|%|<|>|&&|\|\||!|)", line)
 
+
 def getTokens(line):
-    x= re.split("([ (){}\[\];,])", line)
-    y=[]
+    x = re.split("([ (){}\[\];,])", line)
+    y = []
     for i in range(len(x)):
-        if x[i] not in separators+operators+reservedWords and not isIdentifier(x[i]) and not isConstant(x[i]):
-            y.extend(getTokensByOperators(x[i]))
+        if x[i] not in separators + operators + reservedWords and not isIdentifier(x[i]) and not isConstant(x[i]):
+            if any(operator in x[i] for operator in operators):
+                y.extend(getTokensByOperators(x[i]))
+                y = list(filter(lambda a: a != '' and a != '\n', y))
+            else:
+                y.append(x[i])
         else:
             y.append(x[i])
-    y=list(filter(lambda a: a != '' and a!='\n', y))
+    y = list(filter(lambda a: a != '' and a != '\n', y))
     return y
-
