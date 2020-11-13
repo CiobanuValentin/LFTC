@@ -42,23 +42,36 @@ class Fa:
         self.S = S
         self.q0 = q0
         self.F = F
+        self.isDfa = self.isDFA()
+
+    def isDFA(self):
+        for i in range(len(self.S)):
+            for j in range(len(self.S)):
+                if self.S[i][0] == self.S[j][0]:
+                    if i!=j:
+                        return False
+        return True
+
 
     def verifySeq(self, sequence):
-        x = self.q0
-        ok = False
-        for i in sequence:
+        if self.isDfa:
+            x = self.q0
             ok = False
-            for s in self.S:
-                if s[0] == (x, i):
-                    x = s[1]
-                    ok = True
+            for i in sequence:
+                ok = False
+                for s in self.S:
+                    if s[0] == (x, i):
+                        x = s[1]
+                        ok = True
+                        break
+                if not ok:
                     break
-            if not ok:
-                break
-        if ok and x in self.F:
-            print('seq is good')
+            if ok and x in self.F:
+                print('seq is good')
+            else:
+                print('seq is not good')
         else:
-            print('seq is not good')
+            print('is not dfa')
 
     def __str__(self):
         return 'Q = { ' + ', '.join(self.Q) + ' }\n' \
