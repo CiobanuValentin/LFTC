@@ -1,0 +1,38 @@
+fct Main(){
+ Number max,b,c;
+ in>>max>>b>>c;
+ if(b>max){ max=b;}
+ if(c>max){ max=c;}
+ out<<max;
+}
+
+
+
+fct Main(){
+ Number n;
+ bula ok=true;
+ in>>n;
+ for(Number d=3; d<=n/2;d++){
+ if(n%d==0){
+ ok=false;
+ break;
+ }
+ }
+ if (ok){
+ out<<"number is prime";
+ }
+ else
+ out<<"number is not prime"
+}
+
+
+computer the max of n numbers
+fct Main(){
+ Number max,n,a[100];
+ in>>n>>max;
+ for(Number d=2; d<=n;d++){
+ in>>a[d];
+ if(a[d]>max) {max=a[d];}
+ }
+ out<<max;
+}

@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1966b229-5034-4e00-85bf-d421a864a3ac" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scanner.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scanner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/Bst.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/Bst.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/St.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/St.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +99,8 @@
       <option name="presentableId" value="Default" />
       <updated>1603395676423</updated>
       <workItem from="1603395680944" duration="11815000" />
-      <workItem from="1604005718219" duration="5679000" />
+      <workItem from="1604005718219" duration="6326000" />
+      <workItem from="1604579161890" duration="63000" />
     </task>
     <task id="LOCAL-00001" summary="lab3 that works without spaces between operands and operators">
       <created>1603441919447</created>
@@ -126,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604005732439</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="lab4">
+      <created>1604043141561</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604043141561</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,57 +139,62 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lab3 that works without spaces between operands and operators" />
     <MESSAGE value="lab3 that works without spaces between operands and operators done nicer" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab3 that works without spaces between operands and operators done nicer" />
+    <MESSAGE value="lab4" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab4" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#SQL_Dialects" timestamp="1603444292251">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1603444292251" />
-    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1604005730361">
+    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1604043140517">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1604005730361" />
-    <state width="1877" height="325" key="GridCell.Tab.0.bottom" timestamp="1604042610545">
+    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1604043140517" />
+    <state x="739" y="262" key="FileChooserDialogImpl" timestamp="1604579222193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="325" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604042610545" />
-    <state width="1877" height="325" key="GridCell.Tab.0.center" timestamp="1604042610544">
+    <state x="739" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604579222193" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1604043781337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="325" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604042610544" />
-    <state width="1877" height="325" key="GridCell.Tab.0.left" timestamp="1604042610544">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604043781337" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1604043781336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="325" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604042610544" />
-    <state width="1877" height="325" key="GridCell.Tab.0.right" timestamp="1604042610545">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604043781336" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1604043781336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="325" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604042610545" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1604041328160">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604043781336" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1604043781336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604041328160" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1604041328160">
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604043781336" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1604043781337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604041328160" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1604041328160">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604043781337" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1604043781337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604041328160" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1604041328160">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604043781337" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1604043781337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604041328160" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604043781337" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1604043781337">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604043781337" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1604042851361">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604042851361" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1604005719555">
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1604579163482">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604005719555" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604579163482" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604042911173">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -199,6 +208,6 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/lab3$Main.coverage" NAME="Main Coverage Results" MODIFIED="1604042610530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lab3$Main.coverage" NAME="Main Coverage Results" MODIFIED="1604043206617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

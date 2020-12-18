@@ -3,7 +3,7 @@ from model.Pif import ProgramInternalForm
 from Scanner import *
 
 if __name__ == "__main__":
-    fileName = "err.txt"
+    fileName = "2.txt"
 
     file = open(fileName, 'r')
     for line in file:
