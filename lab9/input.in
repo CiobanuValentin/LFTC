@@ -1,0 +1,7 @@
+fct Main(){
+ Number max;Number b; Number c;
+ in>>max;in>>b;in>>c;
+ if(b>max){ max= b ;};
+ if(c>max){ max=c;};
+ out<<max;
+}

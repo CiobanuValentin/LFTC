@@ -26,6 +26,7 @@ fct Main(){
 }
 
 
+computer the max of n numbers
 fct Main(){
  Number max,n,a[100];
  in>>n>>max;

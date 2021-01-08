@@ -1,0 +1,16 @@
+#define IDENTIFIER 0
+#define CONSTANT 1
+#define FCT 2
+#define MAIN 3
+#define IN 4
+#define OUT 5
+#define IF 6
+#define ELSE 7
+#define FOR 8
+#define BREAK 9
+#define NUMBER 10
+#define CHAR 11
+#define BULA 12
+#define RETURN 13
+#define TRUE 14
+#define FALSE 15
